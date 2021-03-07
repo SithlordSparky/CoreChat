@@ -8,3 +8,5 @@ export * from './ChatList';
 export * from './ChatAvatar';
 export * from './RailHeader';
 export * from './ImageUpload';
+export * from './ChatToolBar';
+export * from './SearchUsers';
