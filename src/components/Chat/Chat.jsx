@@ -1,5 +1,6 @@
 import { useChat } from 'context/ChatContext';
 import { useEffect } from 'react';
+import { LeftRail } from 'components';
 import { getChats, ChatEngine } from 'react-chat-engine';
 import './Chat.css';
 
@@ -12,6 +13,7 @@ export const Chat = () => {
 
   return (
     <>
+      <LeftRail />
       {!!chatConfig && (
         <ChatEngine
           hideUI={true}

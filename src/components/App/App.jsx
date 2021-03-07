@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import 'semantic-ui-css/semantic.min.css';
 import { useAuth, useResolved } from 'hooks';
 import { Login, Signup, Chat } from 'components';
 import { ChatProvider } from 'context/ChatContext';
