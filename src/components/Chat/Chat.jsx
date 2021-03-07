@@ -1,1 +1,1 @@
-export const Chat = () => <>Core Chat</>;
+export const Chat = () => <>Core Chat Coming Soon!</>;
